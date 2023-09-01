@@ -6,20 +6,29 @@ body {
     background-color: #d3d3d3;
 }
 
+h1{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 .container-card {
     width: 100%;
-    min-height: 100vh;
+    min-height: 89vh;
     padding: 40px 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .card-item {
     background-color: #FFF;
-    width: 15%;
+    max-width: 250px;
+    min-width: 250px;
     padding: 20px 0;
     margin: 30px 0;
     text-align: center;
